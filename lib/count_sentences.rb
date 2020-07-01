@@ -28,12 +28,7 @@ class String
 
   def count_sentences
 
-<<<<<<< HEAD
     self.split(/[.?!]/).filter{|x| x != ""}.count
 
-=======
-    self.split("." || "?" || "!").filter{|x| x == true}.count
-binding.pry
->>>>>>> 033e2bea2e801d0e2494f1da7f22d7d00f1544e6
   end
 end
